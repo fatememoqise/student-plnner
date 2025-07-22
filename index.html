@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>شمارش ضربان قلب</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>شمارش ضربان قلب</h1>
+    <p>برای ۱۵ ثانیه روی دکمه پایین هر بار که ضربان حس می‌کنی کلیک کن.</p>
+    <div class="counter">
+      <span id="beatCount">۰</span> ضربان
+    </div>
+    <button onclick="addBeat()">ضربان</button>
+    <button onclick="resetBeats()">ریست</button>
+    <div class="result" id="bpmResult"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
