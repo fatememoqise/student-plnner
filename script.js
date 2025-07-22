@@ -26,3 +26,4 @@ function resetBeats() {
   document.getElementById("beatCount").textContent = "۰";
   document.getElementById("bpmResult").textContent = "";
 }
+console.log("logik branch loaded")
